@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTrafficRule xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TrafficRule>
+    <Guid>08dace48-d8c4-3925-93c4-7e2ab41a940c</Guid>
+    <Name>destiny2.exe</Name>
+    <AdapterId xsi:nil="true" />
+    <ProcessName>destiny2.exe</ProcessName>
+    <PID />
+    <FilterId />
+    <LocalPort />
+    <RemoteIp />
+    <RemotePort>30000-30009</RemotePort>
+    <Protocol xsi:nil="true" />
+    <AppProtocols />
+    <Priority>
+      <DownloadPriority>Custom</DownloadPriority>
+      <UploadPriority>Normal</UploadPriority>
+      <DownloadLimit>1</DownloadLimit>
+      <UploadLimit>0</UploadLimit>
+      <DownloadPacketLimit>0</DownloadPacketLimit>
+      <UploadPacketLimit>0</UploadPacketLimit>
+      <DownloadDelay>0</DownloadDelay>
+      <UploadDelay>0</UploadDelay>
+      <DownloadDelayJitter>0</DownloadDelayJitter>
+      <UploadDelayJitter>0</UploadDelayJitter>
+      <DownloadDropRate>0</DownloadDropRate>
+      <UploadDropRate>0</UploadDropRate>
+      <PerConnectionLimits>true</PerConnectionLimits>
+    </Priority>
+    <DSCP xsi:nil="true" />
+    <Condition>
+      <Enabled>false</Enabled>
+      <MoreThan>false</MoreThan>
+      <Quantity>1</Quantity>
+      <Unit>Byte</Unit>
+      <Sent xsi:nil="true" />
+      <Time>1</Time>
+      <TimeUnit>Second</TimeUnit>
+    </Condition>
+    <BlockLists />
+    <Enabled>true</Enabled>
+    <Ssid />
+    <LastActiveAt xsi:nil="true" />
+    <Packets>49</Packets>
+    <IsProgrammatic>false</IsProgrammatic>
+  </TrafficRule>
+</ArrayOfTrafficRule>
