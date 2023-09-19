@@ -11,5 +11,5 @@ I working on a crack for Net Balancer and will add it to the repository at some 
 ## Running
 - When running the project, make sure to change file paths to be linking directly to your system:
 - ```
-  "C:\Users\gabiw\Documents\Ports\3074.xml"
+  "C:\Users\[user]\Documents\Ports\[...].xml"
   ```
