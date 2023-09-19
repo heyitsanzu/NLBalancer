@@ -7,3 +7,9 @@ The only prerequisites its that you have a functional version of Net Balancer an
 You will also have to go into the autohotkey macro and change the file location of the .xml files and Net Balancer 'nbcmd.exe" file, so that they match the location of where they are stored on your computer.
 
 I working on a crack for Net Balancer and will add it to the repository at some point
+
+## Running
+- When running the project, make sure to change file paths to be linking directly to your system:
+- ```
+  "C:\Users\[user]\Documents\Ports\[...].xml"
+  ```
