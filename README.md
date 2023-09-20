@@ -9,7 +9,8 @@ You will also have to go into the autohotkey macro and change the file location 
 I'm working on a crack for Net Balancer and will add it to the repository at some point
 
 ## Running
-- When running the project, make sure to change file paths to be linking directly to your system:
+- When running the project, make sure to change file paths to be linking directly to your system
+- It does not matter where your ports are saved as long as the file path matches the one in balancer.ahk:
 - ```
   "C:\Users\[user]\Documents\Ports\[...].xml"
   ```
